@@ -1,0 +1,54 @@
+.product-details {
+    /* Styles for the main container */
+    padding: 20px;
+  }
+  
+  .product-details-heading {
+    /* Styles for the heading */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .loading-message,
+  .error-message,
+  .no-products-message {
+    /* Styles for messages */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .loading-message {
+    /* Customize loading message style (optional) */
+    color: #ccc;
+  }
+  
+  .error-message {
+    /* Customize error message style (optional) */
+    color: red;
+  }
+  
+  .no-products-message {
+    /* Customize no products message style (optional) */
+    font-style: italic;
+  }
+  
+  table {
+    /* Styles for the table */
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table-header {
+    /* Styles for the table header */
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .product-table-header-cell,
+  .product-table-cell {
+    /* Styles for table header and body cells */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  

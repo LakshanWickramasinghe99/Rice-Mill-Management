@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 20px;
+    min-height: 165px;
+    min-width: 165px;
+    width: 150px;
+    box-shadow: 0px 10px 30px 0px rgb(red, green, blue) (50 50 50/16%);
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.description{
+    text-align: center;
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

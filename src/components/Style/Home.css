@@ -1,0 +1,50 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #002532; 
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+td {
+  padding: 10px;
+}
+
+.action-link,
+.action-button {
+  color: #002532;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  color: #002532;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px; /* Adjust the value to change the roundness of the corners */
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.primary-button {
+  background-color: #002532; 
+  color: #fff; 
+  border-radius: 5px; /* Apply the same border-radius to the primary button */
+}
+

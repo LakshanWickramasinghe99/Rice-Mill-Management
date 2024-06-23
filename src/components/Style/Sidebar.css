@@ -1,0 +1,13 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    background-color: #002532;
+    height: 100px;
+  }
+  
+  .MenuIcon {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px; /* Adjust the top margin to move the button down */
+  }
+  

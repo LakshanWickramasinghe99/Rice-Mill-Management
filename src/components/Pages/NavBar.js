@@ -3,8 +3,13 @@ import { Link, useNavigate } from "react-router-dom";
 
 function NavBar() {
     const navigate = useNavigate()
-    return (
+    return (        
         <div className="flex justify-content-space-between bg plr-10 ptb-20 ">
+
+            <div className="nav-logo">
+                <img src="/rice.jpg" alt="Logo" style={{ width: '50px', height: '50px' }} />
+            </div>
+
             <div className='pl nav-links'><Link className="link" to="/home">Home</Link></div>
             <div className='pl nav-links'><Link className="link" to="/product">Product</Link></div>
             <div className='pl nav-links'><Link className="link" to="/reports">Reports</Link></div>

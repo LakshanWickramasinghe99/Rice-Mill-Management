@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, Reports } from "./components/Pages/Product";
+import Home from './components/Pages/Home';
+import {Product,Reports } from "./components/Pages/Product";
 import Sales from './components/Pages/Sales';
 import Addproduct from './components/Pages/Addproduct';
 import Deleteproduct from './components/Pages/Deleteproduct';
@@ -17,8 +18,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path='/' element={<Home />} />
-          {/* If there's a different component intended for /product, replace Home with that component */}
-          <Route path='/product' element={<Home />} /> 
+          <Route path='/product' element={<Product />} /> 
           <Route path='/updateproduct/:id' element={<UpdateProduct />} />
           <Route path='/reports' element={<Reports />} />
           <Route path='/sales' element={<Sales />} />

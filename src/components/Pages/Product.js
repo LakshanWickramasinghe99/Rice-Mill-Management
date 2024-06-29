@@ -7,7 +7,7 @@ import 'jspdf-autotable';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 // Home Component
-function Home() {
+function Product() {
   const [data, setData] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -115,4 +115,4 @@ function Reports() {
   );
 }
 
-export { Home, Reports };
+export { Product, Reports };
